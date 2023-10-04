@@ -4,12 +4,12 @@
  - portscan.c é um projeto para fins educativos e com finalidade de melhorar o desenvolvimento em C.
 
 # Instalação
-- compile o código scanport.c usando "gcc -o scanport scanport.c"
-- Permitindo execução do código "chmod +x scanport" 
+- compile o código portscan.c usando "gcc -o portscan portscan.c"
+- Permitindo execução do código "chmod +x portscan" 
 
 # Como usar?
-./scan -a 0.0.0.0    # Verifica todas as portas <br>
-./scan -p 22 0.0.0.0  # Verifica a porta 22
+./portscan -a 0.0.0.0    # Verifica todas as portas <br>
+./portscan -p 22 0.0.0.0  # Verifica a porta 22
 
 # Conteúdo em construção!
 - Melhorar velocidade de scan em portas.
