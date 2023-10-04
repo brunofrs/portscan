@@ -20,20 +20,19 @@
 #define WHITE_TEXT "\033[0;37m"
 
 
-// Estrutura para mapear portas a serviços
+// mapeando portas a serviços
 struct PortService {
     int port;
     const char *service;
 };
 
-// Array de portas conhecidas e serviços correspondentes
 struct PortService portServices[] = {
     {21, "FTP"},
     {22, "SSH"},
     {80, "HTTP"},
     {443, "HTTPS"},
-    // Adicione mais portas e serviços conforme necessário
-    {0, NULL} // Marca o final do array
+    // Adicionar mais portas e serviços conforme necessário
+    {0, NULL}
 };
 
 // Função para obter o serviço correspondente à porta
