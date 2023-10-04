@@ -26,6 +26,8 @@ struct PortService {
     const char *service;
 };
 
+
+// adicionar condição quando um serviço HTTP ou SSH estiver em execução por outra porta
 struct PortService portServices[] = {
     {21, "FTP"},
     {22, "SSH"},
