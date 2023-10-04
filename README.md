@@ -10,5 +10,5 @@
 
 
 # Como usar?
-./scan -a 0.0.0.0    # Verifica todas as portas
+./scan -a 0.0.0.0    # Verifica todas as portas <br>
 ./scan -p 22 0.0.0.0  # Verifica a porta 22
